@@ -11,7 +11,6 @@ router.get("/login",(req,res) => {
 });
 
 router.get("/logout",(req,res)=>{
-    console.log("logouted");
     res.send("Logout endpoint");
 });
 
